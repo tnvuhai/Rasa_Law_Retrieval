@@ -1,0 +1,49 @@
+﻿{
+  "version": "3.1",
+  "nlu": [
+    {
+      "intent": "greet",
+      "examples": "- xin chào\n- chào bạn\n- hello\n- hi\n- hey\n- mình có vài câu hỏi\n- có ai giúp mình không\n- bạn ơi\n- anh ơi\n- chị ơi\n- cháu ơi\n- chào\n- hi\n- có ai ở đây không?\n"
+    },
+    {
+      "intent": "bye",
+      "examples": "- tạm biệt\n- chào tạm biệt\n- chào tạm biệt em\n- tạm biệt em\n- tạm biệt em nhé\n- bye\n- bye bye\n"
+    },
+    {
+      "intent": "thank",
+      "examples": "- chuẩn\n- hay\n- siêu\n- tuyệt\n- cám ơn\n- thanks\n- thank you\n- ok\n- cảm ơn em\n- cảm ơn em nhiều nhé\n- cảm ơn\n"
+    },
+    {
+      "intent": "ask_func_list",
+      "examples": "- bạn có thể làm được những gì\n- bạn giúp được gì nào\n- chức năng của bạn là gì\n- bạn có thể làm được mấy chức năng\n- bạn giỏi nhất làm gì\n- bạn có tư vấn giúp mình được không\n- việc gì bạn làm được\n- kể xem bạn làm được gì\n- cho mình biết bạn làm được gì nhé\n- bạn hữu dụng như thế nào\n- bạn có ích trong những việc gì\n- lĩnh vực gì bạn giỏi nhất\n- mình tò mò về những việc bạn làm được\n- chẳng biết bạn làm được gì\n- bạn tệ nhất trong việc gì\n- bạn biết được những lĩnh vực gì\n- bạn giỏi hỗ trợ nhất trong lĩnh vực gì\n- kể cho mình biết những việc bạn có thể làm được nhé\n- nói cho mình về những việc bạn giúp được mình\n- bạn giúp được mình gì nào\n- bạn có thể làm gì\n- em giúp được gì\n- em làm được gì\n- mày biết làm gì\n- em biết làm gì\n- bạn biết làm gì\n- biết làm gì\n- làm được gì\n- có làm được gì\n- có làm được trò gì\n- giúp giúp cái gì\n- biết gì mà nói\n- làm được gì\n- giúp được gì\n- mày làm được gì\n- có biết gì\n"
+    },
+    {
+      "intent": "ask_name",
+      "examples": "- bạn tên gì\n- tên gì\n- chị tên gì\n- anh tên gì\n- tên của bạn là gì\n- tên của chị là gì\n- tên của anh là gì\n- cho mình hỏi tên nhé\n- mình muốn biết tên bạn\n- mình muốn tiện xưng hộ hơn, cho mình biết tên nhé\n- để tiện xưng hộ thì tên bạn là gì\n- cho em xin tên của anh ạ\n- cho em xin tên của chị ạ\n- được biết tên bạn thì tốt nhỉ\n- vui lòng cho mình biết tên nhé\n- xin phép hỏi tên của bạn\n- vậy thì tên bạn là gì\n- tên bạn trong tiếng việt là gì\n- bạn có vui lòng cho mình biết tên được không\n- chúng ta nên biết tên nhau nhỉ?\n- em tên là gì thế\n- tên em là gì\n- tên em\n- tên bạn\n- bạn tên là gì\n- bạn tên gì thế\n- em tên gì\n"
+    },
+    {
+      "intent": "give_name",
+      "examples": "- [Anh](cust_sex) là [Thắng](cust_name)\n- [Chị](cust_sex) là [Hằng](cust_name)\n- [Em](cust_sex) là [Trang](cust_name)\n- [Cô](cust_sex) [Vân](cust_name)\n- [Chú](cust_sex) [Hùng](cust_name)\n- [Tôi](cust_sex) là [Huy](cust_name)\n- [Tôi](cust_sex) tên [Hoàng Long](cust_name)\n- [Tôi](cust_sex) tên [Hoàng Long](cust_name)\n- Huy(cust_name)\n"
+    },
+    {
+      "intent": "luatDienAnh32",
+      "examples": "- Người xem dưới 16 tuổi được xem phim có nội dung thuộc phân loại T18\n- Người xem từ 18 tuổi trở lên được pháp xem phim có nội dung thuộc phân loại K với điều kiện xem cùng cha, mẹ hoặc người giám hộ\n- Người từ 16 tuổi trở lên được phép xem phim có nội dung thuộc phân loại P\n- Phim loại C là phim được phép phổ biến đến người xem ở mọi độ tuổi\n"
+    },
+    {
+      "intent": "luatDienAnh45",
+      "examples": "- Bộ Văn hóa, Thể thao và Du lịch là cơ quan giúp Chính phủ thực hiện quản lý nhà nước về điện ảnh\n- Bộ Văn hóa, thể thao và du lịch giúp thực hiện quản lý nhà nước về điển ảnh\n- Bộ văn hóa, thể thao và du lịch thực hiện quản lý nhà nước về điện ảnh\n"
+    },
+    {
+      "intent": "luatVienChuc29",
+      "examples": "- Viên chức có 02 năm liên tiếp bị phân loại đánh giá ở mức độ không hoàn thành nhiệm vụ\n- Đơn vị sự nghiệp có quyền đơn phương chấm dứt hợp đồng đối với viên chức khi viên chức ốm đau hoặc bị tai nạn, đang điều trị bệnh nghề nghiệp theo quyết định của cơ sở chữa bệnh\"\n- Người đứng đầu đơn vị sự nghiệp công lập phải báo cho viên chức biết trước ít nhất 45 ngày đối với hợp đồng làm việc không xác định thời hạn hoặc ít nhất 30 ngày đối với hợp đồng làm việc xác định thời hạn. \n"
+    },
+    {
+      "intent": "LuatVienChuc46",
+      "examples": "- Cơ quan, tổ chức, đơn vị quản lý viên chức ra quyết định nghỉ hưu đối với viên chức trong thời hạn 06 tháng tính đến ngày viên chức nghỉ hưu\n- Trước 03 tháng, tính đến ngày viên chức nghỉ hưu, cơ quan, tổ chức, đơn vị quản lý viên chức phải thông báo bằng văn bản về thời điểm nghỉ hưu\n"
+    },
+    {
+      "intent": "bot_challenge",
+      "examples": "- Bạn là bot à ?\n- Đây là người đang chat với tôi à ?\n- Ai đang chat với tôi\n- Tôi đang chat với người\n- Tôi đang chat với bot\n"
+    }
+  ]
+}

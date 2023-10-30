@@ -139,7 +139,7 @@ nlu:
   - intent: luatVienChuc29
     examples: |
       - Viên chức có 02 năm liên tiếp bị phân loại đánh giá ở mức độ không hoàn thành nhiệm vụ
-      - Đơn vị sự nghiệp có quyền đơn phương chấm dứt hợp đồng đối với viên chức khi viên chức ốm đau hoặc bị tai nạn, đang điều trị bệnh nghề nghiệp theo quyết định của cơ sở chữa bệnh"
+      - Đơn vị sự nghiệp có quyền đơn phương chấm dứt hợp đồng đối với viên chức khi viên chức ốm đau hoặc bị tai nạn, đang điều trị bệnh nghề nghiệp theo quyết định của cơ sở chữa bệnh
       - Người đứng đầu đơn vị sự nghiệp công lập phải báo cho viên chức biết trước ít nhất 45 ngày đối với hợp đồng làm việc không xác định thời hạn hoặc ít nhất 30 ngày đối với hợp đồng làm việc xác định thời hạn. 
 
   - intent: LuatVienChuc46

@@ -1,0 +1,58 @@
+version: "3.1"
+
+stories:
+  #Chào hỏi đưa tên
+  - story: hello path 1
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: give_name
+      - action: utter_greet_with_name
+      - intent: ask_name
+      - action: utter_ask_name
+      - intent: bye
+      - action: utter_bye
+
+  #Đưa tên
+  - story: give name
+    steps:
+      - intent: give_name
+      - action: utter_greet_with_name
+
+  #Chào - tên - hỏi chức năng - chào
+  - story: hello path 1
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_name
+      - action: utter_ask_name
+      - intent: ask_func_list
+      - action: utter_func_list
+      - intent: bye
+      - action: utter_bye
+
+
+  - story: LuatDienAnh32
+    steps:
+      - intent: luatDienAnh32
+      - action: utter_luatDienAnh32
+
+  - story: LuatDienAnh45
+    steps:
+      - intent: luatDienAnh45
+      - action: utter_luatDienAnh45
+
+  - story: LuatVienChuc29
+    steps:
+      - intent: luatVienChuc29
+      - action: utter_luatVienChuc29
+
+  # - story: LuatVienChuc46
+  #   steps:
+  #     - intent: luatVienChuc46
+  #     - action: utter_luatVienChuc46
+
+  - story: thank path
+    steps:
+      - intent: thank
+      - action: utter_thank

@@ -1,0 +1,101 @@
+version: "3.1"
+
+intents:
+  - greet
+  - thank
+  - bye
+  - ask_func_list
+  - ask_name
+  - give_name
+  - bot_challenge
+  - luatDienAnh32
+  - luatDienAnh45
+  - luatVienChuc29
+  # - luatVienChuc46
+
+
+entities:
+  - cust_sex
+  - cust_name
+  - luatDienAnh
+  - luatPhongChongMaTuy
+  - luatVienChuc
+
+slots:
+  cust_sex:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: cust_sex
+
+  cust_name:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: cust_name
+
+  luatDienAnh:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: luatDienAnh
+
+  luatPhongChongMaTuy:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: luatPhongChongMaTuy
+
+  luatVienChuc:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: luatVienChuc
+
+responses:
+  utter_greet:
+    - text: "Kính chào Quý khách! Quý khách vui lòng cho biết tên để tiện xưng hô được không ạ?"
+    - text: "Xin chào bạn. Tôi có thể biết tên bạn được không"
+
+  utter_greet_with_name:
+    - text: "Kính chào {cust_sex} {cust_name}. Tôi có thể giúp gì được cho {cust_sex} {cust_name} ạ?"
+
+  utter_bye:
+    - text: "Kính chào tạm biệt và mong sớm gặp lại quý khách!"
+    - text: "Kính chào tạm biệt và chúc quý khách một ngày tốt lành!"
+
+  utter_thank:
+    - text: "Cảm ơn quý khách quá khen ah!"
+    - text: "Dạ không có gì, đó là trách nhiệm của tôi mà!"
+
+  utter_func_list:
+    - text: "Tôi có thể làm giúp bạn trả lời các vấn đề về luật"
+
+  utter_ask_name:
+    - text: "Tôi là Bot! Quý khách cần trợ giúp gì ạ?"
+    - text: "Tên Tiếng Việt của tôi là Trợ lý ảo nhưng tôi thích gọi bằng tên Tiếng Anh là Bot cho nó Tây!"
+
+  utter_luatDienAnh32:
+    - text: "Phân loại phim\n\n1. Phim được phân loại theo nội dung để phổ biến phù hợp với độ tuổi người xem hoặc không được phép phổ biến như sau:\n\na) Loại P: Phim được phép phổ biến đến người xem ở mọi độ tuổi;\n\nb) Loại T18 (18+): Phim được phổ biến đến người xem từ đủ 18 tuổi trở lên;\n\nc) Loại T16 (16+): Phim được phổ biến đến người xem từ đủ 16 tuổi trở lên:\n\nd) Loại T13 (13+): Phim được phổ biến đến người xem từ đủ 13 tuổi trở lên;\n\nđ) Loại K: Phim được phổ biến đến người xem dưới 13 tuổi với điều kiện xem cùng cha, mẹ hoặc người giám hộ;\n\ne) Loại C: Phim không được phép phổ biến.\n\n2. Tiêu chí phân loại phim áp dụng chung cho các hình thức phổ biến phim do Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch quy định."
+
+  utter_luatDienAnh45:
+    - text: "Trách nhiệm quản lý nhà nước về điện ảnh của Chính phủ, Bộ Văn hóa, Thể thao và Du lịch\n\n1. Chính phủ thống nhất quản lý nhà nước về điện ảnh.\n\n2. Bộ Văn hóa, Thể thao và Du lịch là cơ quan giúp Chính phủ thực hiện quản lý nhà nước về điện ảnh và có trách nhiệm sau đây:\n\na) Ban hành hoặc trình cơ quan nhà nước có thẩm quyền ban hành và tổ chức thực hiện chính sách, văn bản quy phạm pháp luật về điện ảnh, chiến lược, kế hoạch phát triển điện ảnh;\n\nb) Thông tin, tuyên truyền, phổ biến, giáo dục pháp luật về điện ảnh;\n\nc) Xây dựng tiêu chuẩn quốc gia, quy chuẩn kỹ thuật trong hoạt động điện ảnh; hệ thống chỉ tiêu thống kê, cơ sở dữ liệu ngành điện ảnh;\n\nd) Đào tạo, bồi dưỡng và phát triển nguồn nhân lực điện ảnh;\n\nđ) Hợp tác quốc tế trong hoạt động điện ảnh; quảng bá, xúc tiến phát triển điện ảnh trong nước và nước ngoài;\n\ne) Nghiên cứu, ứng dụng khoa học và công nghệ trong hoạt động điện ảnh;\n\ng) Cấp, thu hồi giấy phép trong hoạt động điện ảnh; dừng phổ biến phim theo thẩm quyền;\n\nh) Thực hiện công tác thi đua, khen thưởng trong hoạt động điện ảnh;\n\ni) Thanh tra, kiểm tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm pháp luật trong hoạt động điện ảnh theo thẩm quyền."
+
+  utter_luatVienChuc29:
+    - text: "Đơn phương chấm dứt hợp đồng làm việc\n\n1. Đơn vị sự nghiệp công lập được đơn phương chấm dứt hợp đồng làm việc với viên chức trong các trường hợp sau:\n\na) Viên chức có 02 năm liên tiếp bị phân loại đánh giá ở mức độ không hoàn thành nhiệm vụ;\n\nb) Viên chức bị buộc thôi việc theo quy định tại điểm d khoản 1 Điều 52 và khoản 1 Điều 57 của Luật này;\n\nc) Viên chức làm việc theo hợp đồng làm việc không xác định thời hạn bị ốm đau đã điều trị 12 tháng liên tục, viên chức làm việc theo hợp đồng làm việc xác định thời hạn bị ốm đau đã điều trị 06 tháng liên tục mà khả năng làm việc chưa hồi phục. Khi sức khỏe của viên chức bình phục thì được xem xét để ký kết tiếp hợp đồng làm việc;\n\nd) Do thiên tai, hỏa hoạn hoặc những lý do bất khả kháng khác theo quy định của Chính phủ làm cho đơn vị sự nghiệp công lập buộc phải thu hẹp quy mô, khiến vị trí việc làm mà viên chức đang đảm nhận không còn;\n\nđ) Khi đơn vị sự nghiệp công lập chấm dứt hoạt động theo quyết định của cơ quan có thẩm quyền."
+
+  # utter_luatVienChuc46: 
+  #   - text: "Chế độ hưu trí\n\n1. Viên chức được hưởng chế độ hưu trí theo quy định của pháp luật về lao động và pháp luật về bảo hiểm xã hội.\n\n2. Trước 06 tháng, tính đến ngày viên chức nghỉ hưu, cơ quan, tổ chức, đơn vị quản lý viên chức phải thông báo bằng văn bản về thời điểm nghỉ hưu; trước 03 tháng, tính đến ngày viên chức nghỉ hưu, cơ quan, tổ chức, đơn vị quản lý viên chức ra quyết định nghỉ hưu.\n\n3. Đơn vị sự nghiệp công lập có thể ký hợp đồng vụ, việc với người hưởng chế độ hưu trí nếu đơn vị có nhu cầu và người hưởng chế độ hưu trí có nguyện vọng; trong thời gian hợp đồng, ngoài khoản thù lao theo hợp đồng, người đó được hưởng một số chế độ, chính sách cụ thể về cơ chế quản lý bảo đảm điều kiện cho hoạt động chuyên môn do Chính phủ quy định."
+
+  utter_iamabot:
+    - text: "Tôi chỉ là bot."
+
+actions:
+  - utter_luatDienAnh32
+  - utter_luatDienAnh45
+  - utter_luatVienChuc29
+  - utter_luatVienChuc46
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

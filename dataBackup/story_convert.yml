@@ -1,0 +1,250 @@
+﻿version: '3.1'
+stories:
+  - story: LuatDienanh2022_32
+    steps:
+      - intent: LuatDienanh2022_32
+      - action: utter_LuatDienanh2022_32
+  - story: LuatPhongchongmatuy2021_30
+    steps:
+      - intent: LuatPhongchongmatuy2021_30
+      - action: utter_LuatPhongchongmatuy2021_30
+  - story: LuatVienchuc2010_29
+    steps:
+      - intent: LuatVienchuc2010_29
+      - action: utter_LuatVienchuc2010_29
+  - story: LuatPhongchongmatuy2021_28
+    steps:
+      - intent: LuatPhongchongmatuy2021_28
+      - action: utter_LuatPhongchongmatuy2021_28
+  - story: LuatVienchuc2010_14
+    steps:
+      - intent: LuatVienchuc2010_14
+      - action: utter_LuatVienchuc2010_14
+  - story: LuatPhongchongmatuy2021_39
+    steps:
+      - intent: LuatPhongchongmatuy2021_39
+      - action: utter_LuatPhongchongmatuy2021_39
+  - story: LuatPhongchongmatuy2021_49
+    steps:
+      - intent: LuatPhongchongmatuy2021_49
+      - action: utter_LuatPhongchongmatuy2021_49
+  - story: LuatVienchuc2010_11
+    steps:
+      - intent: LuatVienchuc2010_11
+      - action: utter_LuatVienchuc2010_11
+  - story: LuatGiaoduc2019_44
+    steps:
+      - intent: LuatGiaoduc2019_44
+      - action: utter_LuatGiaoduc2019_44
+  - story: LuatPhongchongmatuy2021_32
+    steps:
+      - intent: LuatPhongchongmatuy2021_32
+      - action: utter_LuatPhongchongmatuy2021_32
+  - story: LuatVienchuc2010_46
+    steps:
+      - intent: LuatVienchuc2010_46
+      - action: utter_LuatVienchuc2010_46
+  - story: LuatGiaoduc2019_39
+    steps:
+      - intent: LuatGiaoduc2019_39
+      - action: utter_LuatGiaoduc2019_39
+  - story: LuatGiaoduc2019_38
+    steps:
+      - intent: LuatGiaoduc2019_38
+      - action: utter_LuatGiaoduc2019_38
+  - story: LuatPhongchongmatuy2021_24
+    steps:
+      - intent: LuatPhongchongmatuy2021_24
+      - action: utter_LuatPhongchongmatuy2021_24
+  - story: LuatGiaoduc2019_18
+    steps:
+      - intent: LuatGiaoduc2019_18
+      - action: utter_LuatGiaoduc2019_18
+  - story: LuatPhongchongmatuy2021_48
+    steps:
+      - intent: LuatPhongchongmatuy2021_48
+      - action: utter_LuatPhongchongmatuy2021_48
+  - story: LuatGiaoduc2019_51
+    steps:
+      - intent: LuatGiaoduc2019_51
+      - action: utter_LuatGiaoduc2019_51
+  - story: LuatVienchuc2010_28
+    steps:
+      - intent: LuatVienchuc2010_28
+      - action: utter_LuatVienchuc2010_28
+  - story: LuatGiaoduc2019_21
+    steps:
+      - intent: LuatGiaoduc2019_21
+      - action: utter_LuatGiaoduc2019_21
+  - story: LuatThanhnien2020_37
+    steps:
+      - intent: LuatThanhnien2020_37
+      - action: utter_LuatThanhnien2020_37
+  - story: LuatThanhnien2020_28
+    steps:
+      - intent: LuatThanhnien2020_28
+      - action: utter_LuatThanhnien2020_28
+  - story: LuatGiaoduc2019_20
+    steps:
+      - intent: LuatGiaoduc2019_20
+      - action: utter_LuatGiaoduc2019_20
+  - story: LuatGiaoduc2019_64
+    steps:
+      - intent: LuatGiaoduc2019_64
+      - action: utter_LuatGiaoduc2019_64
+  - story: LuatGiaoduc2019_3
+    steps:
+      - intent: LuatGiaoduc2019_3
+      - action: utter_LuatGiaoduc2019_3
+  - story: LuatPhongchongmatuy2021_31
+    steps:
+      - intent: LuatPhongchongmatuy2021_31
+      - action: utter_LuatPhongchongmatuy2021_31
+  - story: LuatPhongchongmatuy2021_23
+    steps:
+      - intent: LuatPhongchongmatuy2021_23
+      - action: utter_LuatPhongchongmatuy2021_23
+  - story: LuatGiaoduc2019_43
+    steps:
+      - intent: LuatGiaoduc2019_43
+      - action: utter_LuatGiaoduc2019_43
+  - story: LuatThanhnien2020_21
+    steps:
+      - intent: LuatThanhnien2020_21
+      - action: utter_LuatThanhnien2020_21
+  - story: LuatVienchuc2010_33
+    steps:
+      - intent: LuatVienchuc2010_33
+      - action: utter_LuatVienchuc2010_33
+  - story: LuatThanhnien2020_9
+    steps:
+      - intent: LuatThanhnien2020_9
+      - action: utter_LuatThanhnien2020_9
+  - story: LuatGiaoduc2019_6
+    steps:
+      - intent: LuatGiaoduc2019_6
+      - action: utter_LuatGiaoduc2019_6
+  - story: LuatVienchuc2010_8
+    steps:
+      - intent: LuatVienchuc2010_8
+      - action: utter_LuatVienchuc2010_8
+  - story: LuatGiaoduc2019_8
+    steps:
+      - intent: LuatGiaoduc2019_8
+      - action: utter_LuatGiaoduc2019_8
+  - story: LuatPhongchongmatuy2021_46
+    steps:
+      - intent: LuatPhongchongmatuy2021_46
+      - action: utter_LuatPhongchongmatuy2021_46
+  - story: LuatVienchuc2010_41
+    steps:
+      - intent: LuatVienchuc2010_41
+      - action: utter_LuatVienchuc2010_41
+  - story: LuatVienchuc2010_26
+    steps:
+      - intent: LuatVienchuc2010_26
+      - action: utter_LuatVienchuc2010_26
+  - story: LuatPhongchongmatuy2021_35
+    steps:
+      - intent: LuatPhongchongmatuy2021_35
+      - action: utter_LuatPhongchongmatuy2021_35
+  - story: LuatThanhnien2020_25
+    steps:
+      - intent: LuatThanhnien2020_25
+      - action: utter_LuatThanhnien2020_25
+  - story: LuatDienanh2022_45
+    steps:
+      - intent: LuatDienanh2022_45
+      - action: utter_LuatDienanh2022_45
+  - story: LuatThanhnien2020_6
+    steps:
+      - intent: LuatThanhnien2020_6
+      - action: utter_LuatThanhnien2020_6
+  - story: LuatPhongchongmatuy2021_17
+    steps:
+      - intent: LuatPhongchongmatuy2021_17
+      - action: utter_LuatPhongchongmatuy2021_17
+  - story: LuatGiaoduc2019_11
+    steps:
+      - intent: LuatGiaoduc2019_11
+      - action: utter_LuatGiaoduc2019_11
+  - story: LuatGiaoduc2019_41
+    steps:
+      - intent: LuatGiaoduc2019_41
+      - action: utter_LuatGiaoduc2019_41
+  - story: LuatVienchuc2010_27
+    steps:
+      - intent: LuatVienchuc2010_27
+      - action: utter_LuatVienchuc2010_27
+  - story: LuatGiaoduc2019_66
+    steps:
+      - intent: LuatGiaoduc2019_66
+      - action: utter_LuatGiaoduc2019_66
+  - story: LuatDienanh2022_27
+    steps:
+      - intent: LuatDienanh2022_27
+      - action: utter_LuatDienanh2022_27
+  - story: LuatVienchuc2010_23
+    steps:
+      - intent: LuatVienchuc2010_23
+      - action: utter_LuatVienchuc2010_23
+  - story: LuatDienanh2022_35
+    steps:
+      - intent: LuatDienanh2022_35
+      - action: utter_LuatDienanh2022_35
+  - story: LuatGiaoduc2019_2
+    steps:
+      - intent: LuatGiaoduc2019_2
+      - action: utter_LuatGiaoduc2019_2
+  - story: LuatGiaoduc2019_46
+    steps:
+      - intent: LuatGiaoduc2019_46
+      - action: utter_LuatGiaoduc2019_46
+  - story: LuatThanhnien2020_27
+    steps:
+      - intent: LuatThanhnien2020_27
+      - action: utter_LuatThanhnien2020_27
+  - story: LuatPhongchongmatuy2021_40
+    steps:
+      - intent: LuatPhongchongmatuy2021_40
+      - action: utter_LuatPhongchongmatuy2021_40
+  - story: LuatPhongchongmatuy2021_36
+    steps:
+      - intent: LuatPhongchongmatuy2021_36
+      - action: utter_LuatPhongchongmatuy2021_36
+  - story: LuatGiaoduc2019_22
+    steps:
+      - intent: LuatGiaoduc2019_22
+      - action: utter_LuatGiaoduc2019_22
+  - story: LuatPhongchongmatuy2021_26
+    steps:
+      - intent: LuatPhongchongmatuy2021_26
+      - action: utter_LuatPhongchongmatuy2021_26
+  - story: LuatGiaoduc2019_17
+    steps:
+      - intent: LuatGiaoduc2019_17
+      - action: utter_LuatGiaoduc2019_17
+  - story: LuatPhongchongmatuy2021_10
+    steps:
+      - intent: LuatPhongchongmatuy2021_10
+      - action: utter_LuatPhongchongmatuy2021_10
+  - story: LuatVienchuc2010_56
+    steps:
+      - intent: LuatVienchuc2010_56
+      - action: utter_LuatVienchuc2010_56
+  - story: LuatVienchuc2010_9
+    steps:
+      - intent: LuatVienchuc2010_9
+      - action: utter_LuatVienchuc2010_9
+  - story: LuatPhongchongmatuy2021_14
+    steps:
+      - intent: LuatPhongchongmatuy2021_14
+      - action: utter_LuatPhongchongmatuy2021_14
+  - story: LuatVienchuc2010_52
+    steps:
+      - intent: LuatVienchuc2010_52
+      - action: utter_LuatVienchuc2010_52
+  - story: LuatGiaoduc2019_70
+    steps:
+      - intent: LuatGiaoduc2019_70
+      - action: utter_LuatGiaoduc2019_70

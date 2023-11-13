@@ -1,0 +1,46 @@
+{
+  "LuatPhongchongmatuy2021": {
+    "precision": 0.9411764705882353,
+    "recall": 0.9411764705882353,
+    "f1-score": 0.9411764705882353,
+    "support": 17,
+    "confused_with": {
+      "LuatVienchuc2010": 1
+    }
+  },
+  "LuatVienchuc2010": {
+    "precision": 0.9523809523809523,
+    "recall": 0.9523809523809523,
+    "f1-score": 0.9523809523809523,
+    "support": 21,
+    "confused_with": {
+      "LuatPhongchongmatuy2021": 1
+    }
+  },
+  "LuatDienanh2022": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "accuracy": 0.9555555555555556,
+  "macro avg": {
+    "precision": 0.9645191409897292,
+    "recall": 0.9645191409897292,
+    "f1-score": 0.9645191409897292,
+    "support": 45
+  },
+  "weighted avg": {
+    "precision": 0.9555555555555556,
+    "recall": 0.9555555555555556,
+    "f1-score": 0.9555555555555556,
+    "support": 45
+  },
+  "micro avg": {
+    "precision": 0.9555555555555556,
+    "recall": 0.9555555555555556,
+    "f1-score": 0.9555555555555556,
+    "support": 45
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "text": "Chủ sở hữu phim có nghĩa vụ mở mã khóa phim để đối chiếu, kiểm tra khi",
+    "intent": "LuatDienanh2022",
+    "intent_prediction": {
+      "name": "LuatVienchuc2010",
+      "confidence": 0.5628675222396851
+    }
+  },
+  {
+    "text": "Trong vòng 05 ngày làm việc, kể từ ngày nhận được kết quả xét nghiệm",
+    "intent": "LuatPhongchongmatuy2021",
+    "intent_prediction": {
+      "name": "LuatVienchuc2010",
+      "confidence": 0.9824135303497314
+    }
+  },
+  {
+    "text": "Bộ Nội Vụ là cơ quan nào chủ trì, phối hợp với các bộ, cơ quan ngang bộ",
+    "intent": "LuatVienchuc2010",
+    "intent_prediction": {
+      "name": "LuatPhongchongmatuy2021",
+      "confidence": 0.9480297565460205
+    }
+  },
+  {
+    "text": "Người đã chấp hành xong quyết định áp dụng biện pháp xử lý hành chính",
+    "intent": "LuatPhongchongmatuy2021",
+    "intent_prediction": {
+      "name": "LuatVienchuc2010",
+      "confidence": 0.9986740350723267
+    }
+  }
+]

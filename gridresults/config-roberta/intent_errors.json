@@ -1,0 +1,18 @@
+[
+  {
+    "text": "Bộ Nội Vụ là cơ quan nào chủ trì, phối hợp với các bộ, cơ quan ngang bộ",
+    "intent": "LuatVienchuc2010",
+    "intent_prediction": {
+      "name": "LuatPhongchongmatuy2021",
+      "confidence": 0.9995545744895935
+    }
+  },
+  {
+    "text": "Cơ quan nhà nước không có thẩm quyền theo dõi, kiểm tra, và giám sát các",
+    "intent": "LuatPhongchongmatuy2021",
+    "intent_prediction": {
+      "name": "LuatVienchuc2010",
+      "confidence": 0.9999959468841553
+    }
+  }
+]
